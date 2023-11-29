@@ -1,0 +1,101 @@
+body{
+    background-color:rgb(205, 255, 221);
+    font-family: 'roboto',sans-serif;
+}
+.Signup-box{
+    width: 360px;
+    height: 460px;
+    margin: auto;
+    background-color:white;
+    border-radius: 15px;
+    margin-top: 100px;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 320px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 15px;
+    font-size: 15px;
+}
+form input{
+    width: 100%;
+    padding: 4px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 6px;
+    outline: none;
+}
+.btn{
+    width: 320px;
+    height: 30px;
+    margin-top: 15px;
+    border: none;
+    background-color: green;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
+}
+p{
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+}
+.demo{
+   color: #49c1a2; 
+}
+.login-box{
+    width: 360px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+/*media queris*/
+
+@media (max-width:991px){
+    html{
+        font-size:60%;
+    }
+    body{
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width:576px){
+    .Signup-box #form{
+        font-size: 60%;
+        height: 200px;
+        width: 300px;
+    }
+   p{
+    padding: 60px;
+   }
+   .demo{
+    padding-top: 10px;
+   }
+   #form{
+    font-size: 50%;
+   }
+ 
+}
